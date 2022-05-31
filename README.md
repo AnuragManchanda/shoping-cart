@@ -1,1 +1,4 @@
 # shoping-cart
+
+# setup steps
+
