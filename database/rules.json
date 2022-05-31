@@ -1,0 +1,17 @@
+{
+  "atv": [{
+      "buy_x_pay_y": {
+        "buy": 3,
+        "pay": 2
+    }
+  }],
+  "ipd": [{
+    "bulk_discount": {
+      "min_count": 4,
+      "price": 49999
+    }
+  }],
+  "mbp": [{
+    "free_second_item_on_first": "vga"
+  }]
+}

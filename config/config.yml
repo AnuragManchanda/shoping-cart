@@ -1,0 +1,3 @@
+paths:
+  products: "./database/products.json"
+  rules: "./database/rules.json"
