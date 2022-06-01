@@ -1,6 +1,6 @@
 # shoping-cart
 
-* Requiremnts
+# Requiremnts
 computer store. You have been engaged to build the checkout system. We will start with the following products in our catalogue
 
 SKU	Name	Price
@@ -32,7 +32,7 @@ SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd Total expected: $2718.95
 
 SKUs Scanned: mbp, vga, ipd Total expected: $1949.98
 
-* setup steps
+# setup steps
 You need to have ruby(any version) installed to run this project
 Gems used 'json' and 'yaml'
 
@@ -40,7 +40,7 @@ To run console application: ruby app/main.rb
 To run test cases: ruby tests/test.rb
 
 
-* Project Structure
+# Project Structure
 > database direcotry could be changed to actual key value store datase like mongo db
 > json file is used to contain all products (products.json)
 > promotion rules are defined as a configurable class which takes params from rules.json
