@@ -33,11 +33,10 @@ SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd Total expected: $2718.95
 SKUs Scanned: mbp, vga, ipd Total expected: $1949.98
 
 # setup steps
-You need to have ruby(any version) installed to run this project
-Gems used 'json' and 'yaml'
-
-To run console application: ruby app/main.rb
-To run test cases: ruby tests/test.rb
+1. You need to have ruby(any version) installed to run this project
+2. Gems used 'json' and 'yaml'
+3. To run console application: ruby app/main.rb
+4. To run test cases: ruby tests/test.rb
 
 
 # Project Structure
