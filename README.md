@@ -1,4 +1,4 @@
-# shoping-cart
+# SHOPING-CART
 
 # Requiremnts
 computer store. You have been engaged to build the checkout system. We will start with the following products in our catalogue
@@ -41,8 +41,8 @@ To run test cases: ruby tests/test.rb
 
 
 # Project Structure
-> database direcotry could be changed to actual key value store datase like mongo db
-> json file is used to contain all products (products.json)
-> promotion rules are defined as a configurable class which takes params from rules.json
-> main program takes product input from user one by one and give result when number 1 is entered
-> test directory is for having all unit test cases
+* database direcotry could be changed to actual key value store datase like mongo db
+* json file is used to contain all products (products.json)
+* promotion rules are defined as a configurable class which takes params from rules.json
+* main program takes product input from user one by one and give result when number 1 is entered
+* test directory is for having all unit test cases
