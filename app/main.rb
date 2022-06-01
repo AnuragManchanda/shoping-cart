@@ -1,25 +1,22 @@
-require 'yaml'
-require 'byebug'
 require_relative './../model/product'
 require_relative './checkout'
+require 'byebug'
 
-# Start Server
-def start_server
-  products = Product.get
-  cart_arr = []
-  loop do
-    puts 'Scan/Enter item or enter 1 to calculate'
-    input_item = gets.chomp
-    puts Checkout.process(cart_arr) && return if input_item == '1'
+products = Product.get
+cart_arr = []
+puts
 
-    if products[input_item]
-      cart_arr << input_item
-    else
-      puts 'Item is not present. Retry'
-    end
+loop do
+  puts 'Scan/Enter item or enter 1 to calculate'
+  input_item = gets.chomp
+  if input_item == '1'
+    puts "$#{Checkout.process(cart_arr)}"
+    break
+  end
+
+  if products[input_item]
+    cart_arr << input_item
+  else
+    puts 'Item is not present. Retry'
   end
 end
-
-
-
-start_server

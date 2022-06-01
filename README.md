@@ -1,7 +1,7 @@
 # shoping-cart
 
 * Requiremnts
-DiUS is starting a computer store. You have been engaged to build the checkout system. We will start with the following products in our catalogue
+computer store. You have been engaged to build the checkout system. We will start with the following products in our catalogue
 
 SKU	Name	Price
 ipd	Super iPad	$549.99
@@ -32,18 +32,12 @@ SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd Total expected: $2718.95
 
 SKUs Scanned: mbp, vga, ipd Total expected: $1949.98
 
-Notes on implementation:
-
-use Java, Javascript, TypeScript, Ruby, Kotlin, Python, Swift, or Groovy
-try not to spend more than 2 hours maximum. (We don't want you to lose a weekend over this!)
-don't build guis etc, we're more interested in your approach to solving the given task, not how shiny it looks
-don't worry about making a command line interface to the application
-don't use any frameworks (rails, spring etc), or any external jars/gems (unless it's for testing or build/dependency mgt)
-When you've finished, send through the link to your github-repo. Happy coding
-
-
 * setup steps
+You need to have ruby(any version) installed to run this project
+Gems used 'json' and 'yaml'
 
+To run console application: ruby app/main.rb
+To run test cases: ruby tests/test.rb
 
 
 * Project Structure

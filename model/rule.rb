@@ -4,22 +4,19 @@ require_relative './../model/product'
 
 # Rule model
 class Rule
+  attr_reader :rules
 
   DEFINED_RULES = {
     'buy_x_pay_y' => true,
     'bulk_discount' => true,
     'free_second_item_on_first' => true
-  }
+  }.freeze
 
   PRODUCTS = Product.get
 
   def initialize
     file = File.read(Config.get['paths']['rules'])
     @rules = JSON.parse(file)
-  end
-
-  def rules
-    @rules
   end
 
   def self.get_discount(rule, cart, item)
